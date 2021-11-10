@@ -4,11 +4,12 @@ import "./navigation.css"
 export default function File() {
     return (
         <ul className="panel-menu">
-            <li>Создать</li>
-            <li>Сохранить</li>
-            <li>Сохранить как...</li>
-            <li>Выход</li>
-            <li>Выход</li>
+            <li className="transitions">Создать...</li>
+            <li className="transitions">Открыть...</li>
+            <li className="transitions">Сохранить</li>
+            <li className="transitions">Сохранить как...</li>
+            <li className="transitions">Печать...</li>
+            <li className="transitions">Выход</li>
         </ul>
     )
 }

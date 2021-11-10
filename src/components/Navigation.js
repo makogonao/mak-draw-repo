@@ -1,7 +1,10 @@
 import React from "react";
 import "../App.css";
 import File from "./navigation/File";
+import View from "./navigation/View";
+import Reference from "./navigation/Reference";
 import { useState, useEffect } from "react";
+import Effects from "./navigation/Effects";
 
 export default function Navigation() {
     const [selectedItem, setSelectedItem] = useState(null);
@@ -21,11 +24,19 @@ export default function Navigation() {
                 </div>
 
                 <div
+                    onMouseOver={() => setSelectedItem("effects")}
+                    onMouseLeave={() => setSelectedItem(null)}
+                >
+                    <li className="transitions">Эффекты</li>
+                    {selectedItem === "effects" && <Effects />}
+                </div>
+
+                <div
                     onMouseOver={() => setSelectedItem("view")}
                     onMouseLeave={() => setSelectedItem(null)}
                 >
                     <li className="transitions">Вид</li>
-                    {selectedItem === "view" && <File />}
+                    {selectedItem === "view" && <View />}
                 </div>
 
                 <div
@@ -33,7 +44,7 @@ export default function Navigation() {
                     onMouseLeave={() => setSelectedItem(null)}
                 >
                     <li className="transitions">Справка</li>
-                    {selectedItem === "reference" && <File />}
+                    {selectedItem === "reference" && <Reference />}
                 </div>
             </ul>
         </nav>

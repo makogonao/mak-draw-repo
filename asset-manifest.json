@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mak-draw-repo/static/css/main.76f5b23d.chunk.css",
+    "main.js": "/mak-draw-repo/static/js/main.ec0aeb41.chunk.js",
+    "main.js.map": "/mak-draw-repo/static/js/main.ec0aeb41.chunk.js.map",
+    "runtime-main.js": "/mak-draw-repo/static/js/runtime-main.7002a795.js",
+    "runtime-main.js.map": "/mak-draw-repo/static/js/runtime-main.7002a795.js.map",
+    "static/js/2.cc8cee14.chunk.js": "/mak-draw-repo/static/js/2.cc8cee14.chunk.js",
+    "static/js/2.cc8cee14.chunk.js.map": "/mak-draw-repo/static/js/2.cc8cee14.chunk.js.map",
+    "index.html": "/mak-draw-repo/index.html",
+    "static/css/main.76f5b23d.chunk.css.map": "/mak-draw-repo/static/css/main.76f5b23d.chunk.css.map",
+    "static/js/2.cc8cee14.chunk.js.LICENSE.txt": "/mak-draw-repo/static/js/2.cc8cee14.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7002a795.js",
+    "static/js/2.cc8cee14.chunk.js",
+    "static/css/main.76f5b23d.chunk.css",
+    "static/js/main.ec0aeb41.chunk.js"
+  ]
+}

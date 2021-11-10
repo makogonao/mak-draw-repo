@@ -1,0 +1,45 @@
+aside {
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    width: 60px;
+    font-size: 10px;
+    color: black;
+    background-color: #444444;
+    -webkit-box-shadow: 6px 6px 23px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 6px 6px 23px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 6px 23px -10px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.panel-header {
+    border-radius: 3px 3px 0 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #363636;
+    cursor: move;
+}
+
+.panel-tools-grid {
+    display: grid;
+    grid-template-columns: 30px 30px;
+    border-radius: 3px;
+}
+
+.panel-tools-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #444444;
+    border-radius: 3px;
+}
+
+.panel-tools-btn:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #525252;
+}
